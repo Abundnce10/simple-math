@@ -1,6 +1,6 @@
 {
-  "name": "math",
-  "version": "0.1.1",
+  "name": "simple-math",
+  "version": "0.1.2",
   "description": "A small library providing some simple mathematical functions",
   "main": "index.js",
   "scripts": {

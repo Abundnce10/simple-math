@@ -1,113 +1,132 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '.', '-g' ]
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish' ]
 2 info using npm@1.4.9
 3 info using node@v0.10.28
 4 verbose node symlink /usr/bin/node
-5 verbose cache add [ '.', null ]
-6 verbose cache add name=undefined spec="." args=[".",null]
-7 verbose parsed url { protocol: null,
-7 verbose parsed url   slashes: null,
-7 verbose parsed url   auth: null,
-7 verbose parsed url   host: null,
-7 verbose parsed url   port: null,
-7 verbose parsed url   hostname: null,
-7 verbose parsed url   hash: null,
-7 verbose parsed url   search: null,
-7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: '.',
-7 verbose parsed url   path: '.',
-7 verbose parsed url   href: '.' }
-8 silly lockFile 3a52ce78- .
-9 verbose lock . /home/m1/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz',
-10 verbose tar pack   '.' ]
-11 verbose tarball /home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-12 verbose folder .
-13 info prepublish Math@0.1.0
-14 silly lockFile 1f1177db-tar tar://.
-15 verbose lock tar://. /home/m1/.npm/1f1177db-tar.lock
-16 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-17 verbose lock tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz /home/m1/.npm/015df25e-8118-0-07658614590764046-tmp-tgz.lock
-18 silly lockFile 1f1177db-tar tar://.
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/m1/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball /home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
+13 verbose folder .
+14 info prepublish math@0.1.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /home/m1/.npm/1f1177db-tar.lock
+17 silly lockFile 68a472b8-8711-0-36031175684183836-tmp-tgz tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
+18 verbose lock tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz /home/m1/.npm/68a472b8-8711-0-36031175684183836-tmp-tgz.lock
 19 silly lockFile 1f1177db-tar tar://.
-20 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-21 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-22 verbose tar unpack /home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-23 silly lockFile bd62aff3-r-home-m1-npm-Math-0-1-0-package tar:///home/m1/.npm/Math/0.1.0/package
-24 verbose lock tar:///home/m1/.npm/Math/0.1.0/package /home/m1/.npm/bd62aff3-r-home-m1-npm-Math-0-1-0-package.lock
-25 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-26 verbose lock tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz /home/m1/.npm/015df25e-8118-0-07658614590764046-tmp-tgz.lock
-27 silly gunzTarPerm modes [ '755', '644' ]
-28 silly gunzTarPerm extractEntry package.json
-29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
-30 silly gunzTarPerm extractEntry .npmignore
-31 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
-32 silly gunzTarPerm extractEntry README.md
-33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
-34 silly gunzTarPerm extractEntry index.js
-35 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
-36 silly gunzTarPerm extractEntry Makefile
-37 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
-38 silly gunzTarPerm extractEntry test/index.js
-39 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
-40 silly lockFile bd62aff3-r-home-m1-npm-Math-0-1-0-package tar:///home/m1/.npm/Math/0.1.0/package
-41 silly lockFile bd62aff3-r-home-m1-npm-Math-0-1-0-package tar:///home/m1/.npm/Math/0.1.0/package
-42 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-43 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
-44 silly lockFile 3a52ce78- .
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 68a472b8-8711-0-36031175684183836-tmp-tgz tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
+22 silly lockFile 68a472b8-8711-0-36031175684183836-tmp-tgz tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
+23 verbose tar unpack /home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
+24 silly lockFile 2de8b295-r-home-m1-npm-math-0-1-1-package tar:///home/m1/.npm/math/0.1.1/package
+25 verbose lock tar:///home/m1/.npm/math/0.1.1/package /home/m1/.npm/2de8b295-r-home-m1-npm-math-0-1-1-package.lock
+26 silly lockFile 68a472b8-8711-0-36031175684183836-tmp-tgz tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
+27 verbose lock tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz /home/m1/.npm/68a472b8-8711-0-36031175684183836-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+35 silly gunzTarPerm extractEntry index.js
+36 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+37 silly gunzTarPerm extractEntry Makefile
+38 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+39 silly gunzTarPerm extractEntry test/index.js
+40 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+41 silly lockFile 2de8b295-r-home-m1-npm-math-0-1-1-package tar:///home/m1/.npm/math/0.1.1/package
+42 silly lockFile 2de8b295-r-home-m1-npm-math-0-1-1-package tar:///home/m1/.npm/math/0.1.1/package
+43 silly lockFile 68a472b8-8711-0-36031175684183836-tmp-tgz tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
+44 silly lockFile 68a472b8-8711-0-36031175684183836-tmp-tgz tar:///home/m1/tmp/npm-2266-y6bi3FP3/1401814428711-0.36031175684183836/tmp.tgz
 45 silly lockFile 3a52ce78- .
-46 silly resolved [ { name: 'Math',
-46 silly resolved     version: '0.1.0',
-46 silly resolved     description: 'A small library providing some simple mathematical functions',
-46 silly resolved     main: 'index.js',
-46 silly resolved     scripts: { test: 'make test' },
-46 silly resolved     keywords: [ 'math', 'addition', 'add', 'subtract' ],
-46 silly resolved     author:
-46 silly resolved      { name: 'Michael Stitt',
-46 silly resolved        email: 'michaelstitt@gmail.com',
-46 silly resolved        url: 'https://github.com/Abundnce10' },
-46 silly resolved     license: 'BSD-2-Clause',
-46 silly resolved     devDependencies: { chai: '^1.9.1', mocha: '^1.20.0' },
-46 silly resolved     readme: 'MATH\n====\n\nA small library that provides very simple mathematical functions.\n\n## Installation\n\n`npm install math --save`\n\n## Usage\n\n```javascript\nvar math = require(\'math\'),\n\tadd = math.add,\n\tsubtract = math.subtract;\n\n// Add two numbers\nvar sum = add(3,5);\nconsole.log(sum);\n//=> 8\n\n// Subtract one number from another\nvar diff = subtract(5,3);\nconsole.log(diff);\n//=> 2\n\n```\n',
-46 silly resolved     readmeFilename: 'README.md',
-46 silly resolved     _id: 'Math@0.1.0',
-46 silly resolved     _shasum: '6e3d26d6744a3c437ed674c48f22921ab637843f',
-46 silly resolved     _from: '.' } ]
-47 info install Math@0.1.0 into /usr/lib
-48 info installOne Math@0.1.0
-49 info /usr/lib/node_modules/Math unbuild
-50 verbose tar unpack /home/m1/.npm/Math/0.1.0/package.tgz
-51 silly lockFile 80770bdf-tar-usr-lib-node-modules-Math tar:///usr/lib/node_modules/Math
-52 verbose lock tar:///usr/lib/node_modules/Math /home/m1/.npm/80770bdf-tar-usr-lib-node-modules-Math.lock
-53 silly lockFile b21382af-me-m1-npm-Math-0-1-0-package-tgz tar:///home/m1/.npm/Math/0.1.0/package.tgz
-54 verbose lock tar:///home/m1/.npm/Math/0.1.0/package.tgz /home/m1/.npm/b21382af-me-m1-npm-Math-0-1-0-package-tgz.lock
-55 silly gunzTarPerm modes [ '755', '644' ]
-56 error Error: EACCES, mkdir '/usr/lib/node_modules/Math'
-56 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/Math']
-56 error   errno: 3,
-56 error   code: 'EACCES',
-56 error   path: '/usr/lib/node_modules/Math',
-56 error   fstream_type: 'Directory',
-56 error   fstream_path: '/usr/lib/node_modules/Math',
-56 error   fstream_class: 'DirWriter',
-56 error   fstream_stack:
-56 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
-56 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
-56 error      'Object.oncomplete (fs.js:107:15)' ] }
-57 error Please try running this command again as root/Administrator.
+46 silly lockFile 3a52ce78- .
+47 silly publish { name: 'math',
+47 silly publish   version: '0.1.1',
+47 silly publish   description: 'A small library providing some simple mathematical functions',
+47 silly publish   main: 'index.js',
+47 silly publish   scripts: { test: 'make test' },
+47 silly publish   keywords: [ 'math', 'addition', 'add', 'subtract' ],
+47 silly publish   author:
+47 silly publish    { name: 'Michael Stitt',
+47 silly publish      email: 'michaelstitt@gmail.com',
+47 silly publish      url: 'https://github.com/Abundnce10' },
+47 silly publish   license: 'BSD-2-Clause',
+47 silly publish   devDependencies: { chai: '^1.9.1', mocha: '^1.20.0' },
+47 silly publish   readme: 'MATH\n====\n\nA small library that provides very simple mathematical functions.\n\n## Installation\n\n`npm install math --save`\n\n## Usage\n\n```javascript\nvar math = require(\'math\'),\n\tadd = math.add,\n\tsubtract = math.subtract;\n\n// Add two numbers\nvar sum = add(3,5);\nconsole.log(sum);\n//=> 8\n\n// Subtract one number from another\nvar diff = subtract(5,3);\nconsole.log(diff);\n//=> 2\n\n```\n',
+47 silly publish   readmeFilename: 'README.md',
+47 silly publish   _id: 'math@0.1.1',
+47 silly publish   _shasum: '247415dd6e1b8731d962b97013bfe71483ed944e',
+47 silly publish   _from: '.' }
+48 verbose url raw math
+49 verbose url resolving [ 'https://registry.npmjs.org/', './math' ]
+50 verbose url resolved https://registry.npmjs.org/math
+51 info trying registry request attempt 1 at 09:53:48
+52 http PUT https://registry.npmjs.org/math
+53 http 403 https://registry.npmjs.org/math
+54 verbose headers { date: 'Tue, 03 Jun 2014 16:53:53 GMT',
+54 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+54 verbose headers   'content-type': 'application/json',
+54 verbose headers   'cache-control': 'max-age=1',
+54 verbose headers   'content-length': '1333',
+54 verbose headers   'accept-ranges': 'bytes',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   'x-served-by': 'cache-sv63-SJC3',
+54 verbose headers   'x-cache': 'MISS',
+54 verbose headers   'x-cache-hits': '0',
+54 verbose headers   'x-timer': 'S1401814433.558981,VS0,VE126',
+54 verbose headers   'keep-alive': 'timeout=10, max=50',
+54 verbose headers   connection: 'Keep-Alive' }
+55 error publish Failed PUT 403
+56 error Error: forbidden user: abundnce10 not authorized to modify math
+56 error Changed: description "Mathematical Functions" -> "A small library providing some simple mathematical functions"
+56 error Changed: dist-tags.latest "0.0.3" -> "0.1.1"
+56 error Added: versions.0.1.1
+56 error Changed: time.modified "2011-09-19T01:38:33.810Z" -> "2014-06-03T16:52:51.289Z"
+56 error Added: time.0.1.1
+56 error Changed: author.name "Kaleb Hornsby" -> "Michael Stitt"
+56 error Changed: author.email "kaleb@hornsby.ws" -> "michaelstitt@gmail.com"
+56 error Changed: author.url "kaleb.hornsby.ws" -> "https://github.com/Abundnce10"
+56 error Deleted: repository
+56 error Changed: readme "" -> "MATH\u000a====\u000a\u000aA small library that provides very simple mathematical functions.\u000a\u000a## Installation\u000a\u000a`npm install math --save`\u000a\u000a## Usage\u000a\u000a```javascript\u000avar math = require('math'),\u000a\u0009add = math.add,\u000a\u0009subtract = math.subtract;\u000a\u000a// Add two numbers\u000avar sum = add(3,5);\u000aconsole.log(sum);\u000a//=> 8\u000a\u000a// Subtract one number from another\u000avar diff = subtract(5,3);\u000aconsole.log(diff);\u000a//=> 2\u000a\u000a```\u000a"
+56 error Changed: readmeFilename "" -> "README.md"
+56 error Deleted: homepage
+56 error Deleted: contributors
+56 error Added: keywords
+56 error Added: license
+56 error Added: _attachments: math
+56 error     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+56 error     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+56 error     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:123:22)
+56 error     at Request.EventEmitter.emit (events.js:98:17)
+56 error     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:893:14)
+56 error     at Request.EventEmitter.emit (events.js:117:20)
+56 error     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:844:12)
+56 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+56 error     at _stream_readable.js:919:16
+56 error     at process._tickCallback (node.js:419:13)
+57 error If you need help, you may report this *entire* log,
+57 error including the npm and node versions, at:
+57 error     <http://github.com/npm/npm/issues>
 58 error System Linux 3.2.0-23-generic-pae
-59 error command "/usr/bin/node" "/usr/bin/npm" "install" "." "-g"
+59 error command "/usr/bin/node" "/usr/bin/npm" "publish"
 60 error cwd /home/m1/Documents/node/math
 61 error node -v v0.10.28
 62 error npm -v 1.4.9
-63 error path /usr/lib/node_modules/Math
-64 error fstream_path /usr/lib/node_modules/Math
-65 error fstream_type Directory
-66 error fstream_class DirWriter
-67 error code EACCES
-68 error errno 3
-69 error stack Error: EACCES, mkdir '/usr/lib/node_modules/Math'
-70 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
-70 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
-70 error fstream_stack Object.oncomplete (fs.js:107:15)
-71 verbose exit [ 3, true ]
+63 verbose exit [ 1, true ]

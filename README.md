@@ -1,18 +1,18 @@
-MATH
+simple-math
 ====
 
 A small library that provides very simple mathematical functions.
 
 ## Installation
 
-`npm install math --save`
+`npm install simple-math --save`
 
 ## Usage
 
 ```javascript
-var math = require('math'),
-	add = math.add,
-	subtract = math.subtract;
+var simple-math = require('simple-math'),
+	add = simple-math.add,
+	subtract = simple-math.subtract;
 
 // Add two numbers
 var sum = add(3,5);
