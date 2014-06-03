@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '.', '-g' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/m1/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+12 verbose folder .
+13 info prepublish Math@0.1.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/m1/.npm/1f1177db-tar.lock
+16 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+17 verbose lock tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz /home/m1/.npm/015df25e-8118-0-07658614590764046-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+21 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+22 verbose tar unpack /home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+23 silly lockFile bd62aff3-r-home-m1-npm-Math-0-1-0-package tar:///home/m1/.npm/Math/0.1.0/package
+24 verbose lock tar:///home/m1/.npm/Math/0.1.0/package /home/m1/.npm/bd62aff3-r-home-m1-npm-Math-0-1-0-package.lock
+25 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+26 verbose lock tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz /home/m1/.npm/015df25e-8118-0-07658614590764046-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+34 silly gunzTarPerm extractEntry index.js
+35 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+36 silly gunzTarPerm extractEntry Makefile
+37 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+38 silly gunzTarPerm extractEntry test/index.js
+39 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+40 silly lockFile bd62aff3-r-home-m1-npm-Math-0-1-0-package tar:///home/m1/.npm/Math/0.1.0/package
+41 silly lockFile bd62aff3-r-home-m1-npm-Math-0-1-0-package tar:///home/m1/.npm/Math/0.1.0/package
+42 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+43 silly lockFile 015df25e-8118-0-07658614590764046-tmp-tgz tar:///home/m1/tmp/npm-2163-1dYdI3GO/1401814108118-0.07658614590764046/tmp.tgz
+44 silly lockFile 3a52ce78- .
+45 silly lockFile 3a52ce78- .
+46 silly resolved [ { name: 'Math',
+46 silly resolved     version: '0.1.0',
+46 silly resolved     description: 'A small library providing some simple mathematical functions',
+46 silly resolved     main: 'index.js',
+46 silly resolved     scripts: { test: 'make test' },
+46 silly resolved     keywords: [ 'math', 'addition', 'add', 'subtract' ],
+46 silly resolved     author:
+46 silly resolved      { name: 'Michael Stitt',
+46 silly resolved        email: 'michaelstitt@gmail.com',
+46 silly resolved        url: 'https://github.com/Abundnce10' },
+46 silly resolved     license: 'BSD-2-Clause',
+46 silly resolved     devDependencies: { chai: '^1.9.1', mocha: '^1.20.0' },
+46 silly resolved     readme: 'MATH\n====\n\nA small library that provides very simple mathematical functions.\n\n## Installation\n\n`npm install math --save`\n\n## Usage\n\n```javascript\nvar math = require(\'math\'),\n\tadd = math.add,\n\tsubtract = math.subtract;\n\n// Add two numbers\nvar sum = add(3,5);\nconsole.log(sum);\n//=> 8\n\n// Subtract one number from another\nvar diff = subtract(5,3);\nconsole.log(diff);\n//=> 2\n\n```\n',
+46 silly resolved     readmeFilename: 'README.md',
+46 silly resolved     _id: 'Math@0.1.0',
+46 silly resolved     _shasum: '6e3d26d6744a3c437ed674c48f22921ab637843f',
+46 silly resolved     _from: '.' } ]
+47 info install Math@0.1.0 into /usr/lib
+48 info installOne Math@0.1.0
+49 info /usr/lib/node_modules/Math unbuild
+50 verbose tar unpack /home/m1/.npm/Math/0.1.0/package.tgz
+51 silly lockFile 80770bdf-tar-usr-lib-node-modules-Math tar:///usr/lib/node_modules/Math
+52 verbose lock tar:///usr/lib/node_modules/Math /home/m1/.npm/80770bdf-tar-usr-lib-node-modules-Math.lock
+53 silly lockFile b21382af-me-m1-npm-Math-0-1-0-package-tgz tar:///home/m1/.npm/Math/0.1.0/package.tgz
+54 verbose lock tar:///home/m1/.npm/Math/0.1.0/package.tgz /home/m1/.npm/b21382af-me-m1-npm-Math-0-1-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 error Error: EACCES, mkdir '/usr/lib/node_modules/Math'
+56 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/Math']
+56 error   errno: 3,
+56 error   code: 'EACCES',
+56 error   path: '/usr/lib/node_modules/Math',
+56 error   fstream_type: 'Directory',
+56 error   fstream_path: '/usr/lib/node_modules/Math',
+56 error   fstream_class: 'DirWriter',
+56 error   fstream_stack:
+56 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+56 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+56 error      'Object.oncomplete (fs.js:107:15)' ] }
+57 error Please try running this command again as root/Administrator.
+58 error System Linux 3.2.0-23-generic-pae
+59 error command "/usr/bin/node" "/usr/bin/npm" "install" "." "-g"
+60 error cwd /home/m1/Documents/node/math
+61 error node -v v0.10.28
+62 error npm -v 1.4.9
+63 error path /usr/lib/node_modules/Math
+64 error fstream_path /usr/lib/node_modules/Math
+65 error fstream_type Directory
+66 error fstream_class DirWriter
+67 error code EACCES
+68 error errno 3
+69 error stack Error: EACCES, mkdir '/usr/lib/node_modules/Math'
+70 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+70 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+70 error fstream_stack Object.oncomplete (fs.js:107:15)
+71 verbose exit [ 3, true ]
